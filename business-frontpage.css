@@ -8,7 +8,7 @@ body {
 }
 header .container{
   text-align: center;
-  padding-top: 4em;
+  padding-top: 3em;
 }
 
 .container #cox {
@@ -57,7 +57,7 @@ header .container{
 .business-header {
   height: 70vh;
   min-height: 100px;
-  background-image : url('./img01.jpg') ;
+  background-image : url('./nimg1.jpg') ;
   background-size : cover ;
   opacity: 0.85;
 }
