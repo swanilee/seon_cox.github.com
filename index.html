@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html lang="ko"  lang="en">
+<html lang="ko"  lang="en">   <!--언어 설정-->
 
+  <!-- 헤드파트 -->
+  
   <head>
 
     <meta charset="utf-8">
@@ -11,21 +13,30 @@
     <title>Business Frontpage - Start Bootstrap Template</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">  <!--부트스트랩 CSS 파일 로드, 문서 분류 설정은 stylesheet -->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">  
+    <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">-->
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
     
 
     <!-- Custom styles for this template -->
-    <link href="./business-frontpage.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+    
+    <link href="./business-frontpage.css" rel="stylesheet">  <!-- CSS 파일 로드 , 문서 분류 설정은 stylesheet -->
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">  <!-- 영어 폰트 설정 -->
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">  <!--한글 폰트 설정-->
     <script src="index.js"></script>
+  
     <!-- Google Map API -->
+    
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYIW5cNthsQK8FeW54YwVcuTUBJlawC4Y&callback=initMap&language=en"type="text/javascript"></script>
   </head>
+
+
+
+    <!-- 바디 파트 -->
+
 
   <body>
     <!-- Navigation -->
@@ -57,6 +68,7 @@
     </nav>
 
     <!-- Header with Background Image -->
+  
     <header class="business-header">
         <div class="container">
             <div class="row">
@@ -68,7 +80,9 @@
         </div>
     </header>
 
+
     <!-- Page Content -->
+  
     <div class="contents">
       <div class="container">
         <div class="row">
@@ -85,7 +99,7 @@
           </div>
         </div>
 
-        <!-- cox 상단바 -->
+        <!-- cox 중간바 -->
 
         <div class="bgimg-3 w3-display-container w3-opacity-min">
             <div class="w3-display-middle">
@@ -96,12 +110,14 @@
         <br>
         
         
-        <!-- /.row -->
+        <!-- 하단 개별 서비스 내용 -->
 
+        <!-- 1번 개 서비스 -->
+        
         <div class="row">
           <div class="col-lg-3 col-md-6 mb-4">
             <div class="card">
-              <img class="card-img-top" src="./dog1.jpg" alt="">
+              <img class="card-img-top" src="/pic/dog1.jpg" alt="">
               <div class="card-body">
                 <h4 class="card-title">Dog</h4>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
@@ -111,9 +127,12 @@
               </div>
             </div>
           </div>
+          
+          <!-- 2번 고양이 서비스 -->
+          
           <div class="col-lg-3 col-md-6 mb-4">
             <div class="card">
-              <img class="card-img-top" src="./cat.jpg"  alt="">
+              <img class="card-img-top" src="/pic/cat.jpg"  alt="">
               <div class="card-body">
                 <h4 class="card-title">Cat</h4>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut.</p>
@@ -123,9 +142,12 @@
               </div>
             </div>
           </div>
+          
+            <!-- 3번 여우 서비스 -->
+          
           <div class="col-lg-3 col-md-6 mb-4">
             <div class="card">
-              <img class="card-img-top" src="./fox.jpg" alt="">
+              <img class="card-img-top" src="/pic/fox.jpg" alt="">
               <div class="card-body">
                 <h4 class="card-title">Fox</h4>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
@@ -136,9 +158,11 @@
             </div>
           </div>
           
+          <!-- 4번 새 서비스 -->
+          
           <div class="col-lg-3 col-md-6 mb-4">
             <div class="card">
-              <img class="card-img-top" src="./bird.jpg" alt="">
+              <img class="card-img-top" src="/pic/bird.jpg" alt="">
               <div class="card-body">
                 <h4 class="card-title">Bird</h4>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
@@ -152,21 +176,25 @@
         </div>
       </div>
     </div>
-    <!-- /.container -->
+    
 
-    <!-- Second Parallax Image with Portfolio Text -->
+    <!-- 콘택트 내용 헤드 -->
+
     <div class="bgimg-2 w3-display-container w3-opacity-min">
       <div class="w3-display-middle">
           <span class="w3-xxlarge w3-text-black w3-wide">CONTACT</span>
       </div>
     </div>
   
-      <!-- Container (Contact Section) -->
+      <!-- 콘텍트  상세 바디 -->
+
       <div class="w3-content w3-container w3-padding-64" id="contact">
 
         <div class="w3-row w3-padding-32 w3-section">
             <div class="w3-col m4 w3-container">
+              
                 <!-- Add Google Maps -->
+              
                 <div id="googleMap" style="width:90%;height:280px;"></div>
             </div>
             <div class="w3-col m8 w3-panel">
@@ -183,15 +211,16 @@
     </div>
 
 
-    <!-- Footer -->
+    <!-- Footer 파트 -->
+    
     <footer class="py-5 bg-dark">
       <div class="container">
         <p class="m-0 text-center text-white">Copyright &copy; Cox Website 2018</p>
       </div>
-      <!-- /.container -->
     </footer>
 
     <!-- Bootstrap core JavaScript -->
+    
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   </body>
